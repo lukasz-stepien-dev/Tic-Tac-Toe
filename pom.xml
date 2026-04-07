@@ -51,11 +51,16 @@
     </dependency><dependency>
       <groupId>org.kordamp.ikonli</groupId>
       <artifactId>ikonli-javafx</artifactId>
-      <version>12.3.1</version>
+      <version>12.4.0</version>
     </dependency><dependency>
       <groupId>org.kordamp.bootstrapfx</groupId>
       <artifactId>bootstrapfx-core</artifactId>
       <version>0.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.kordamp.ikonli</groupId>
+      <artifactId>ikonli-bootstrapicons-pack</artifactId>
+      <version>12.4.0</version>
     </dependency>
 <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -90,7 +95,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.lukaszstepien.tic_tac_toe.tic_tac_toe/com.lukaszstepien.tic_tac_toe.tic_tac_toe.HelloApplication</mainClass>
+              <mainClass>com.lukaszstepien.tic_tac_toe.tic_tac_toe/com.lukaszstepien.tic_tac_toe.tic_tac_toe.TicTacToeApp</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
