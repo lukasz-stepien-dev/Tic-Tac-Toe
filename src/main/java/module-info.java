@@ -7,6 +7,7 @@ module com.lukaszstepien.tic_tac_toe.tic_tac_toe {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
+    requires static lombok;
 
     opens com.lukaszstepien.tic_tac_toe.tic_tac_toe to javafx.fxml;
     exports com.lukaszstepien.tic_tac_toe.tic_tac_toe;
