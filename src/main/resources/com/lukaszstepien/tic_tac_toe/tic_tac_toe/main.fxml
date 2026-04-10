@@ -30,7 +30,7 @@
   </rowConstraints>
   <Button
           fx:id="cell_0_0"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="0"
@@ -44,7 +44,7 @@
   </Button>
   <Button
           fx:id="cell_0_1"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="1"
@@ -59,7 +59,7 @@
   </Button>
   <Button
           fx:id="cell_0_2"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="2"
@@ -74,7 +74,7 @@
 
   <Button
           fx:id="cell_1_0"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="0"
@@ -88,7 +88,7 @@
   </Button>
   <Button
           fx:id="cell_1_1"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="1"
@@ -102,7 +102,7 @@
   </Button>
   <Button
           fx:id="cell_1_2"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="2"
@@ -117,7 +117,7 @@
 
   <Button
           fx:id="cell_2_0"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="0"
@@ -131,7 +131,7 @@
   </Button>
   <Button
           fx:id="cell_2_1"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="1"
@@ -145,7 +145,7 @@
   </Button>
   <Button
           fx:id="cell_2_2"
-          onAction="#handleCellClick"
+          onAction="#handleCellAction"
           maxHeight="Infinity"
           maxWidth="Infinity"
           GridPane.columnIndex="2"

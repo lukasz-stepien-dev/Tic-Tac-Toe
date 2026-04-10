@@ -8,5 +8,5 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Player {
-    private String character;
+    private String literal;
 }
