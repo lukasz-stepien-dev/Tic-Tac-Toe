@@ -10,6 +10,7 @@ public class Game {
     private Player player1;
     private Player player2;
     private Player currentPlayer;
+    private Short moves = 0;
 
     Game(Player p1, Player p2) {
         this.player1 = p1;

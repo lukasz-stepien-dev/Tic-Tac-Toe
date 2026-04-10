@@ -41,5 +41,6 @@ public class GridController {
         fontIcon.setIconLiteral(getGame().getCurrentPlayer().getLiteral());
         clickedBtn.setDisable(true);
         game.nextTurn();
+        game.setMoves((short) (getGame().getMoves() + 1));
     }
 }
